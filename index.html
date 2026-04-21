@@ -1,0 +1,32 @@
+---
+layout: default
+title: Accueil
+---
+
+<section class="hero">
+  <p class="eyebrow">Carnet de bord</p>
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+</section>
+
+<section class="posts">
+  <h2>Derniers articles</h2>
+
+  {% if site.posts.size > 0 %}
+    <div class="post-list">
+      {% for post in site.posts %}
+        <article class="post-card">
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%d/%m/%Y" }}
+          </time>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          {% if post.excerpt %}
+            <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>Aucun article pour le moment.</p>
+  {% endif %}
+</section>

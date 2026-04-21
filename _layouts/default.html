@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'fr' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav aria-label="Navigation principale">
+        <a href="{{ '/' | relative_url }}">Articles</a>
+        <a href="{{ '/a-propos/' | relative_url }}">A propos</a>
+      </nav>
+    </header>
+
+    <main class="site-main">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name | default: site.title }}.</p>
+    </footer>
+  </body>
+</html>

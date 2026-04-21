@@ -1,0 +1,29 @@
+title: EPIE Blog
+description: Un blog propulse par Jekyll et GitHub Pages.
+url: ""
+baseurl: ""
+lang: fr
+timezone: Europe/Paris
+
+permalink: /:categories/:year/:month/:day/:title/
+
+author:
+  name: Laurent
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
