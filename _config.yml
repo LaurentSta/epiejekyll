@@ -1,7 +1,7 @@
 title: EPIE Blog
 description: Un blog propulse par Jekyll et GitHub Pages.
-url: ""
-baseurl: ""
+url: "https://laurentsta.github.io"
+baseurl: "/epiejekyll"
 lang: fr
 timezone: Europe/Paris
 

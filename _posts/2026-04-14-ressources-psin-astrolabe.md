@@ -18,7 +18,7 @@ Afin de suivre notre evolution, deux temps de bilan sont deja prevus avec Astrol
 
 Pour retrouver en un coup d'oeil les principales etapes de notre parcours, voici le visuel des dates importantes de la formation :
 
-![Dates importantes de la formation PSIN Astrolabe](/assets/images/formation-psin-astrolabe.png)
+![Dates importantes de la formation PSIN Astrolabe]({{ '/assets/images/formation-psin-astrolabe.png' | relative_url }})
 
 ## Dates importantes
 
