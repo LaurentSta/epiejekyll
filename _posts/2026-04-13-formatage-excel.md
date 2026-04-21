@@ -9,7 +9,7 @@ image: /assets/images/formatage-excel.png
 description: "Retour d'experience sur un exercice Excel entre alignement, fusion de cellules et format monetaire."
 ---
 
-Quand le formateur nous a annonce : "Aujourd'hui, on va travailler sur le formatage des cellules dans Excel", j'ai leve un sourcil. Le formatage ? Serieusement ? Pour moi, c'etait juste ecrire dans des cases et eventuellement mettre un peu de gras pour faire joli. Rien de bien mechant.
+"Aujourd'hui, on va travailler sur le formatage des cellules dans Excel", j'ai leve un sourcil. Le formatage ? Serieusement ? Pour moi, c'etait juste ecrire dans des cases et eventuellement mettre un peu de gras pour faire joli. Rien de bien mechant.
 
 Puis il nous a donne l'exercice.
 
