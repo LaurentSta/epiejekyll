@@ -21,3 +21,6 @@ Le site sera disponible sur `http://localhost:4000`.
 4. Choisir `GitHub Actions` comme source de deploiement.
 
 Si le site est publie sous une URL de type `https://utilisateur.github.io/nom-du-depot/`, renseigner `baseurl: "/nom-du-depot"` dans `_config.yml`.
+
+Test de déploiement automatique.
+
