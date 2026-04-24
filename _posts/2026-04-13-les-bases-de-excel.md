@@ -1,0 +1,76 @@
+---
+title: "Microsoft Excel : Apprentissage en formation PSIN- Astrolabe"
+date: 2026-04-13 09:00:00 +0200
+categories: bureautique
+groupe: astrolab
+author: bogdy204
+description: "Retour sur les bases d'Excel vues pendant la formation PSIN Astrolabe."
+---
+
+Pendant la formation, nous avons travaillé sur Microsoft Excel et découvert progressivement comment utiliser le logiciel de manière plus avancée.
+
+## Les bases des calculs :
+
+Au début, nous avons vu les opérations de base : addition, soustraction, multiplication et division directement dans les cellules. Nous avons également compris les règles de signes, ce qui permet d'éviter les erreurs dans les formules.
+
+## La zone de nom :
+
+Nous avons découvert la zone de nom, située à gauche de la barre de formule, au-dessus du tableau. Elle affiche la cellule sélectionnée (A1, B2, etc.) et permet aussi de nommer des plages de cellules afin de les retrouver plus facilement.
+
+## La mise en forme des données :
+
+Ensuite, nous avons travaillé sur la mise en forme des données. Nous avons appris à afficher correctement les dates, les heures et les montants en euros. Il ne suffit pas d'ajouter le symbole EUR, il faut utiliser les formats adaptés pour obtenir un affichage propre et lisible.
+
+## Manipulation du texte :
+
+Nous avons ensuite découvert plusieurs fonctions pour manipuler du texte :
+
+Le symbole & permet de combiner plusieurs cellules.
+
+Les fonctions CONCAT et JOINDRE.TEXTE permettent d'assembler des informations automatiquement.
+
+Nous avons aussi utilisé des fonctions pour analyser des chaînes de caractères :
+
+- NBCAR : compte le nombre de caractères
+- GAUCHE et DROITE : extraient une partie d'un texte
+- CHERCHE : permet de trouver une information dans une cellule
+
+## Les fonctions logiques et conditions :
+
+Nous avons utilisé la fonction SI, qui permet d'appliquer des conditions.
+
+Exemple :
+
+```text
+=SI(B2>10;"admis";"refusé")
+```
+
+Cette formule vérifie si la valeur de B2 est supérieure à 10. Si c'est le cas, le résultat affiché est "admis", sinon "refusé".
+
+Nous avons aussi vu des exemples avec des pourcentages :
+
+```text
+=SI(E3>=E2;30000*2%;0)
+```
+
+Ou encore :
+
+```text
+=SI(A1>=SEUIL;A1*2%;0)
+```
+
+Ces formules permettent d'automatiser des calculs selon certaines conditions.
+
+## La fonction SOMME :
+
+Enfin, nous avons utilisé la fonction SOMME pour additionner plusieurs valeurs :
+
+```text
+=SOMME(B3;C3;D3)
+```
+
+Elle permet de calculer rapidement la somme de plusieurs cellules.
+
+## Conclusion :
+
+Avec ces exercices sur Microsoft Excel, nous avons compris qu'il s'agit bien plus qu'un simple tableau. Excel est un outil puissant qui permet de traiter des données, automatiser des calculs et gagner du temps dans de nombreuses situations.
