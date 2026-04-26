@@ -4,9 +4,50 @@ title: Accueil
 ---
 
 <section class="hero">
-  <p class="eyebrow">Carnet de bord</p>
-  <h1>{{ site.title }}</h1>
-  <p>{{ site.description }}</p>
+  <div class="hero-copy">
+    <p class="eyebrow">PSIN // informatique & numerique</p>
+    <h1>Le lab des projets PSIN</h1>
+    <p>Un carnet de bord pour suivre les realisations des groupes Astrolabe et Gidef, valoriser les competences techniques et montrer aux financeurs ce qui se construit semaine apres semaine.</p>
+    <div class="hero-actions" aria-label="Acces rapides">
+      <a href="{{ '/astrolabe/' | relative_url }}">Explorer Astrolabe</a>
+      <a href="{{ '/gidef/' | relative_url }}">Explorer Gidef</a>
+    </div>
+  </div>
+
+  <div class="signal-panel" aria-label="Indicateurs du blog">
+    <div class="panel-bar">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <p class="terminal-line"><span>$</span> psin status --projects</p>
+    <div class="metric-grid">
+      <div>
+        <strong>{{ site.posts.size }}</strong>
+        <span>articles</span>
+      </div>
+      <div>
+        <strong>2</strong>
+        <span>groupes</span>
+      </div>
+      <div>
+        <strong>GitHub</strong>
+        <span>publication</span>
+      </div>
+    </div>
+    <p class="terminal-output">journalisation active : ateliers, projets, veille, programmation, bureautique et retours d'experience.</p>
+  </div>
+</section>
+
+<section class="group-strip" aria-label="Groupes PSIN">
+  <a class="group-link" href="{{ '/astrolabe/' | relative_url }}">
+    <span>Astrolabe</span>
+    <strong>Parcours, articles et projets du groupe.</strong>
+  </a>
+  <a class="group-link" href="{{ '/gidef/' | relative_url }}">
+    <span>Gidef</span>
+    <strong>Espace pret pour les prochaines publications.</strong>
+  </a>
 </section>
 
 <section class="posts">
@@ -16,9 +57,22 @@ title: Accueil
     <div class="post-list">
       {% for post in site.posts %}
         <article class="post-card">
-          <time datetime="{{ post.date | date_to_xmlschema }}">
-            {{ post.date | date: "%d/%m/%Y" }}
-          </time>
+          <div class="post-card-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date: "%d/%m/%Y" }}
+            </time>
+            {% if post.groupe %}
+              {% if post.groupe == "astrolab" or post.groupe == "astrolabe" %}
+                <span>Astrolabe</span>
+              {% elsif post.groupe == "gidef" %}
+                <span>Gidef</span>
+              {% else %}
+                <span>{{ post.groupe }}</span>
+              {% endif %}
+            {% elsif post.categories.first %}
+              <span>{{ post.categories.first }}</span>
+            {% endif %}
+          </div>
           <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
           {% if post.excerpt %}
             <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>

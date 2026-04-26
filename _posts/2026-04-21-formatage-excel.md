@@ -2,6 +2,7 @@
 title: "Le formatage Excel, bien plus qu'une question de style"
 date: 2026-04-13 09:00:00 +0200
 categories: bureautique
+groupe: astrolab
 authors:
   - Nils
   - Mariame

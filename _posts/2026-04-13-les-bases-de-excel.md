@@ -41,7 +41,7 @@ Nous avons utilisé la fonction SI, qui permet d'appliquer des conditions.
 
 Exemple :
 
-```text
+```excel
 =SI(B2>10;"admis";"refusé")
 ```
 
@@ -49,13 +49,13 @@ Cette formule vérifie si la valeur de B2 est supérieure à 10. Si c'est le cas
 
 Nous avons aussi vu des exemples avec des pourcentages :
 
-```text
+```excel
 =SI(E3>=E2;30000*2%;0)
 ```
 
 Ou encore :
 
-```text
+```excel
 =SI(A1>=SEUIL;A1*2%;0)
 ```
 
@@ -65,7 +65,7 @@ Ces formules permettent d'automatiser des calculs selon certaines conditions.
 
 Enfin, nous avons utilisé la fonction SOMME pour additionner plusieurs valeurs :
 
-```text
+```excel
 =SOMME(B3;C3;D3)
 ```
 

@@ -2,6 +2,7 @@
 title: "Ressources PSIN Astrolabe"
 date: 2026-04-14 09:00:00 +0200
 categories: formation
+groupe: astrolab
 authors:
   - OUMOU
 image: /assets/images/vignette-psin-astrolabe.png
