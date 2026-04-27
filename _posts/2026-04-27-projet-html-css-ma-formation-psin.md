@@ -1,11 +1,11 @@
 ---
-title: "Projet HTML/CSS"
+title: "Projet CSS"
 date: 2026-04-27 09:30:00 +0200
 categories: formation
 groupe: astrolab
 author: Laurent Staelens
 image: /assets/images/vignette-psin-astrolabe.png
-description: "Consigne courte du projet HTML/CSS et suivi des réalisations du groupe Astrolabe."
+description: "Consigne courte du projet CSS et suivi des réalisations du groupe Astrolabe."
 ---
 
 Le groupe Astrolabe a travaillé sur un projet complet en HTML et CSS : créer une page web intitulée **Mon parcours de formation PSIN**.
