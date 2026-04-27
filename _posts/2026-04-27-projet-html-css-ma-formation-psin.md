@@ -35,7 +35,7 @@ Le CSS devait contenir les propriétés de base : couleurs, police, taille du te
 | Oumou-Koulthoum | ☐ Oui / ☐ Non | [Lien à compléter](#) |
 | Ouzefa | ☐ Oui / ☐ Non | [Lien à compléter](#) |
 | Sherine | ☐ Oui / ☐ Non | [Lien à compléter](#) |
-| Maryam | <span class="validation validation-ok" aria-label="Validé">✓</span> | [Voir le projet]({{ '/assets/projets/maryam/' | relative_url }}) |
+| Maryam | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/maryam/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Nils | ☐ Oui / ☐ Non | [Lien à compléter](#) |
 | Adama | ☐ Oui / ☐ Non | [Lien à compléter](#) |
 | Gname | ☐ Oui / ☐ Non | [Lien à compléter](#) |
