@@ -26,7 +26,24 @@
     </main>
 
     <footer class="site-footer">
-      <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name | default: site.title }}.</p>
+      <div class="footer-inner">
+        <div class="footer-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+            <path d="M2 12h20"></path>
+          </svg>
+          <span>Cahier de liaison · PSIN Astrolabe Lot 16</span>
+        </div>
+        <div class="footer-item">
+          <span>EPIE Formation — Saint-Denis</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M15 3h6v6"></path>
+            <path d="M10 14 21 3"></path>
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+          </svg>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
