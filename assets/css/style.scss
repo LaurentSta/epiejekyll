@@ -304,11 +304,41 @@ nav a:hover {
 }
 
 .post-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 150px;
+  gap: 22px;
+  align-items: center;
   padding: 24px;
   background: rgba(16, 26, 32, 0.86);
   border: 1px solid var(--line);
   border-radius: 8px;
   box-shadow: var(--shadow);
+}
+
+.post-card-body {
+  min-width: 0;
+}
+
+.post-card-thumb {
+  display: block;
+  overflow: hidden;
+  width: 150px;
+  aspect-ratio: 4 / 3;
+  border: 1px solid rgba(50, 214, 198, 0.24);
+  border-radius: 8px;
+  background: rgba(237, 247, 247, 0.04);
+}
+
+.post-card-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 180ms ease;
+}
+
+.post-card-thumb:hover img {
+  transform: scale(1.04);
 }
 
 .post-card-meta {
@@ -493,6 +523,12 @@ nav a:hover {
   }
 
   .post-card {
+    grid-template-columns: 1fr;
     padding: 20px;
+  }
+
+  .post-card-thumb {
+    width: 100%;
+    max-height: 180px;
   }
 }

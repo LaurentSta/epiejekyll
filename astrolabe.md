@@ -20,18 +20,24 @@ permalink: /astrolabe/
     <div class="post-list">
       {% for post in group_posts %}
         <article class="post-card">
-          <div class="post-card-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">
-              {{ post.date | date: "%d/%m/%Y" }}
-            </time>
-            {% if post.categories.first %}
-              <span>{{ post.categories.first }}</span>
+          <div class="post-card-body">
+            <div class="post-card-meta">
+              <time datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date: "%d/%m/%Y" }}
+              </time>
+              {% if post.categories.first %}
+                <span>{{ post.categories.first }}</span>
+              {% endif %}
+            </div>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            {% if post.excerpt %}
+              <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
             {% endif %}
           </div>
-          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-          {% if post.excerpt %}
-            <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
-          {% endif %}
+          {% assign thumbnail = post.image | default: "/assets/images/vignette-psin-astrolabe.png" %}
+          <a class="post-card-thumb" href="{{ post.url | relative_url }}" aria-label="Lire {{ post.title | escape }}">
+            <img src="{{ thumbnail | relative_url }}" alt="">
+          </a>
         </article>
       {% endfor %}
     </div>
