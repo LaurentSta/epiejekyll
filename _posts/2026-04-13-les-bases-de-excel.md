@@ -3,7 +3,7 @@ title: "Microsoft Excel : Apprentissage en formation PSIN- Astrolabe"
 date: 2026-04-13 09:00:00 +0200
 categories: bureautique
 groupe: astrolab
-author: bogdy204
+author: Bogdan Tiganescu 
 description: "Retour sur les bases d'Excel vues pendant la formation PSIN Astrolabe."
 ---
 
