@@ -1,5 +1,5 @@
 ---
-title: "Projet HTML/CSS : Mon parcours de formation PSIN"
+title: "Projet HTML/CSS"
 date: 2026-04-27 09:30:00 +0200
 categories: formation
 groupe: astrolab
