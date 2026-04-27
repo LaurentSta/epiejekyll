@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Parcours de Formation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Ma Formation</div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#presentation">Présentation</a></li>
+            <li><a href="#calendrier">Calendrier</a></li>
+            <li><a href="#objectifs">Objectifs</a></li>
+            <li><a href="#liens">Liens</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Mon Site de Formation</h1>
+
+        <section id="presentation" class="section-card">
+            <h2>Partie 1 : Présentation</h2>
+            <ul>
+                <li><strong>Titre de la formation :</strong> Développeur Web</li>
+                <li><strong>Date de début :</strong> 23/03/2026</li>
+                <li><strong>Centre de formation :</strong>EPIE FORMATION</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="calendrier" class="section-card">
+            <h2>Partie 2 : Mon calendrier</h2>
+            <ul>
+                <li>Réunion</li>
+                <li>Bilan intermédiaire</li>
+                <li>Stage</li>
+                <li>Bilan final</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="objectifs" class="section-card">
+            <h2>Partie 3 : Objectifs personnels</h2>
+            <p>Créer une liste :</p>
+            <ul>
+                <li>Apprendre HTML</li>
+                <li>Comprendre CSS</li>
+                <li>Créer un site propre</li>
+                <li>Réussir ma formation</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="liens" class="links-section">
+            <h2>🔗 Liens obligatoires</h2>
+            <p>Ajouter :</p>
+            <div class="links-container">
+                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Google</a>
+                <a href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer">Wikipédia</a>
+                <a href="page2.html" target="_blank" rel="noopener noreferrer">Ma page personnelle (page2.html)</a>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="bonus-section">
+            <h2><span class="icon">🎓</span> Bonus</h2>
+            <p>Voici un chat qui mange un humburger</p>
+            <img src="images.jfif" alt="Tour Eiffel" class="main-image">
+        </section>
+    </div>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('open');
+        });
+    </script>
+
+</body>
+</html>

@@ -46,7 +46,7 @@ Le CSS devait contenir les propriétés de base : couleurs, police, taille du te
 | Esteban | ☐ Oui / ☐ Non | [Lien à compléter](#) |
 | Moise | ☐ Oui / ☐ Non | [Lien à compléter](#) |
 | Hermell | ☐ Oui / ☐ Non | [Lien à compléter](#) |
-| Amjad | ☐ Oui / ☐ Non | [Lien à compléter](#) |
+| Amjad | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/amjad/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Jess-Bruno | ☐ Oui / ☐ Non | [Lien à compléter](#) |
 | Mehdi | ☐ Oui / ☐ Non | [Lien à compléter](#) |
 | Bogdan-Ioan | ☐ Oui / ☐ Non | [Lien à compléter](#) |
