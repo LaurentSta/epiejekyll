@@ -3,93 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Parcours de Formation</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Mon Site Professionnel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="logo">Ma Formation</div>
-        <button class="hamburger" id="hamburger" aria-label="Menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <ul class="nav-links" id="nav-links">
-            <li><a href="#presentation">Présentation</a></li>
-            <li><a href="#calendrier">Calendrier</a></li>
-            <li><a href="#objectifs">Objectifs</a></li>
-            <li><a href="#liens">Liens</a></li>
+    <nav>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span><span></span><span></span>
+        </label>
+        <ul class="menu-items">
+            <li><a href="#" target="_blank" rel="noopener noreferrer">Réunion</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">Bilan intermédiaire</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">Stage</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">Bilan Final</a></li>
         </ul>
     </nav>
 
+    <section class="hero">
+        <h1>Ma Formation</h1>
+        <p>Je suis actuellement en formation à EPIE Formation, du 23 mars au 27 juillet, afin de consolider mon parcours professionnel.</p>
+    </section>
+
     <div class="container">
-        <h1>Mon Site de Formation</h1>
+        <details>
+            <summary><span class="icon">💻</span> Apprendre HTML</summary>
+            <div class="content">Le langage de base pour structurer vos pages web. C'est ici que tout commence.</div>
+        </details>
 
-        <section id="presentation" class="section-card">
-            <h2>Partie 1 : Présentation</h2>
-            <ul>
-                <li><strong>Titre de la formation :</strong> Développeur Web</li>
-                <li><strong>Date de début :</strong> 23/03/2026</li>
-                <li><strong>Centre de formation :</strong>EPIE FORMATION</li>
-            </ul>
-        </section>
+        <details>
+            <summary><span class="icon">🎨</span> Comprendre CSS</summary>
+            <div class="content">Le style et le design. Apprenez à rendre vos sites beaux et responsives sur tous les écrans.</div>
+        </details>
 
-        <hr>
-
-        <section id="calendrier" class="section-card">
-            <h2>Partie 2 : Mon calendrier</h2>
-            <ul>
-                <li>Réunion</li>
-                <li>Bilan intermédiaire</li>
-                <li>Stage</li>
-                <li>Bilan final</li>
-            </ul>
-        </section>
-
-        <hr>
-
-        <section id="objectifs" class="section-card">
-            <h2>Partie 3 : Objectifs personnels</h2>
-            <p>Créer une liste :</p>
-            <ul>
-                <li>Apprendre HTML</li>
-                <li>Comprendre CSS</li>
-                <li>Créer un site propre</li>
-                <li>Réussir ma formation</li>
-            </ul>
-        </section>
-
-        <hr>
-
-        <section id="liens" class="links-section">
-            <h2>🔗 Liens obligatoires</h2>
-            <p>Ajouter :</p>
-            <div class="links-container">
-                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Google</a>
-                <a href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer">Wikipédia</a>
-                <a href="page2.html" target="_blank" rel="noopener noreferrer">Ma page personnelle (page2.html)</a>
-            </div>
-        </section>
-
-        <hr>
-
-        <section class="bonus-section">
-            <h2><span class="icon">🎓</span> Bonus</h2>
-            <p>Voici un chat qui mange un humburger</p>
-            <img src="images.jfif" alt="Tour Eiffel" class="main-image">
-        </section>
+        <details>
+            <summary><span class="icon">🚀</span> Réussir sa Formation</summary>
+            <div class="content">Organisation, pratique régulière et motivation sont les clés pour devenir un expert.</div>
+        </details>
     </div>
 
-    <script>
-        const hamburger = document.getElementById('hamburger');
-        const navLinks = document.getElementById('nav-links');
-
-        hamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-            hamburger.classList.toggle('open');
-        });
-    </script>
+    <div class="cat-footer">
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueGZueXlyZ3R4Z3R4Z3R4Z3R4Z3R4Z3R4Z3R4Z3R4Z3R4Z3R4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/JIX9t2j0ZTN9S/giphy.gif" 
+             alt="Chat développeur" class="gif-chat">
+    </div>
 
 </body>
 </html>
