@@ -1,5 +1,5 @@
 ---
-title: "Projet CSS"
+title: "Projet Css : les bases"
 date: 2026-04-27 09:30:00 +0200
 categories: formation
 groupe: astrolab
