@@ -1,0 +1,60 @@
+Markdown ? Pourquoi pas Markup ?
+
+Markdown est un langage simple qui permet de mettre en forme du texte facilement (titres, listes, liens, images, code, etc.).
+Paragraphes :
+Il suffit de taper du texte.
+Pour aller à la ligne, ajoute 2 espaces en fin de ligne
+ou laisse une ligne vide pour créer un nouveau paragraphe.
+Mise en forme du texte :
+•	Texte en italique → *italique* ou _italique_ 
+•	Texte en gras → **gras** 
+•	Texte barré → ~~barré~~ 
+•	Texte en code → `code` 
+Aussi combinable :
+•	Gras + italique → ***texte***
+
+Listes :
+Liste à puces
+•	Élément 1 
+•	Élément 2 
+•	Élément 3 
+Liste numérotée
+1.	Premier élément 
+2.	Deuxième élément 
+3.	Troisième élément
+
+Titres :
+# Titre niveau 1
+## Titre niveau 2
+### Titre niveau 3
+Il existe jusqu’à 6 niveaux de titres (######).
+Liens :
+[Cliquez ici 😊](https://oneduc.fr)
+Images :
+![Description](https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg)
+Citations : 
+> Hermel part en vacances dans le sud.
+Code : 
+console.log("Hello")
+Bloc de code :
+function greet(name) {
+console.log("Texte");
+}
+Tableaux :
+| Sujet | Vue |
+|-----------|-------|
+| Gras | ✅ OK |
+| Italique | ✅ OK |
+| Code | ✅ OK |
+| Images | ✅ OK |
+| Liens | ✅ OK |
+| Table | ✅ OK |
+Exposant /  Indice (HTML possible) :
+Markdown accepte parfois du HTML :
+<sup>exposant</sup>
+<sub>indice</sub>
+Astuces utiles :
+•	--- permet de créer une ligne de séparation 
+•	- [ ] et - [x] permettent de faire des listes de tâches : 
+•	Échapper un symbole avec \
+Exemple : \* pour afficher une étoile sans italique
