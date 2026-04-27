@@ -28,15 +28,6 @@ La page devait utiliser les principales balises HTML vues ensemble : titres, par
 
 Le CSS devait contenir les propriétés de base : couleurs, police, taille du texte, bordures, arrondis, alignement, marges et espacements.
 
-## Barème
-
-| Critère | Points |
-| --- | --- |
-| Structure HTML | 5 |
-| Mise en forme CSS | 5 |
-| Respect des consignes | 5 |
-| Présentation et originalité | 5 |
-
 ## Suivi des projets
 
 | Prénom | Validé (Oui / Non) | Voir projet |
