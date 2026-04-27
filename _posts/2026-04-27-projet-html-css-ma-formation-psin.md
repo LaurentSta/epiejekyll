@@ -33,7 +33,7 @@ Le CSS devait contenir les propriétés de base : couleurs, police, taille du te
 | Prénom | Validé (Oui / Non) | Voir projet |
 | --- | --- | --- |
 | Oumou-Koulthoum | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/oumou-koulthoum/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
-| Ouzefa | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Ouzefa | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/ouzefa/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Sherine | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/sherine/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Maryam | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/maryam/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Nils | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/nils/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
