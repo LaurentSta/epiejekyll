@@ -498,6 +498,24 @@ nav a:hover {
   background: rgba(237, 247, 247, 0.03);
 }
 
+.validation {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.validation-ok {
+  color: #071013;
+  background: var(--accent-strong);
+  box-shadow: 0 0 0 1px rgba(164, 255, 79, 0.28);
+}
+
 .site-footer {
   padding: 28px 0 40px;
   border-top: 1px solid rgba(50, 214, 198, 0.2);
