@@ -28,3 +28,25 @@ Pour retrouver en un coup d'oeil les principales etapes de notre parcours, voici
 - Bilan intermediaire : lundi 4 mai 2026
 - Stage en entreprise : du lundi 22 juin au vendredi 17 juillet 2026
 - Bilan final : lundi 27 juillet 2026
+
+| Prénom            | Validé (Oui / Non) | Voir projet |
+| ----------------- | ------------------ | ----------- |
+| Oumou-Koulthoum   | ☐ Oui / ☐ Non      | [Lien]      |
+| Ouzefa            | ☐ Oui / ☐ Non      | [Lien]      |
+| Sherine           | ☐ Oui / ☐ Non      | [Lien]      |
+| Maryam            | ☐ Oui / ☐ Non      | [Lien]      |
+| Nils              | ☐ Oui / ☐ Non      | [Lien]      |
+| Adama             | ☐ Oui / ☐ Non      | [Lien]      |
+| Gname             | ☐ Oui / ☐ Non      | [Lien]      |
+| Rayan             | ☐ Oui / ☐ Non      | [Lien]      |
+| William           | ☐ Oui / ☐ Non      | [Lien]      |
+| Lohan             | ☐ Oui / ☐ Non      | [Lien]      |
+| Mohamed-Zineddine | ☐ Oui / ☐ Non      | [Lien]      |
+| Esteban           | ☐ Oui / ☐ Non      | [Lien]      |
+| Moise             | ☐ Oui / ☐ Non      | [Lien]      |
+| Hermell           | ☐ Oui / ☐ Non      | [Lien]      |
+| Amjad             | ☐ Oui / ☐ Non      | [Lien]      |
+| Jess-Bruno        | ☐ Oui / ☐ Non      | [Lien]      |
+| Mehdi             | ☐ Oui / ☐ Non      | [Lien]      |
+| Bogdan-Ioan       | ☐ Oui / ☐ Non      | [Lien]      |
+
