@@ -473,6 +473,31 @@ nav a:hover {
   border-radius: 8px;
 }
 
+.post-content table {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+  margin: 20px 0 28px;
+  border-collapse: collapse;
+}
+
+.post-content th,
+.post-content td {
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.post-content th {
+  color: var(--accent-strong);
+  background: rgba(164, 255, 79, 0.08);
+}
+
+.post-content tr:nth-child(even) td {
+  background: rgba(237, 247, 247, 0.03);
+}
+
 .site-footer {
   padding: 28px 0 40px;
   border-top: 1px solid rgba(50, 214, 198, 0.2);
