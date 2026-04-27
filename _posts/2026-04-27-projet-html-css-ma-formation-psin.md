@@ -32,21 +32,21 @@ Le CSS devait contenir les propriétés de base : couleurs, police, taille du te
 
 | Prénom | Validé (Oui / Non) | Voir projet |
 | --- | --- | --- |
-| Oumou-Koulthoum | ☐ Oui / ☐ Non | [Lien à compléter](#) |
-| Ouzefa | ☐ Oui / ☐ Non | [Lien à compléter](#) |
+| Oumou-Koulthoum | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Ouzefa | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
 | Sherine | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/sherine/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Maryam | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/maryam/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Nils | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/nils/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
-| Adama | ☐ Oui / ☐ Non | [Lien à compléter](#) |
-| Gname | ☐ Oui / ☐ Non | [Lien à compléter](#) |
+| Adama | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Gname | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
 | Rayan | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/rayan/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
-| William | ☐ Oui / ☐ Non | [Lien à compléter](#) |
-| Lohan | ☐ Oui / ☐ Non | [Lien à compléter](#) |
-| Mohamed-Zineddine | ☐ Oui / ☐ Non | [Lien à compléter](#) |
-| Esteban | ☐ Oui / ☐ Non | [Lien à compléter](#) |
-| Moise | ☐ Oui / ☐ Non | [Lien à compléter](#) |
-| Hermell | ☐ Oui / ☐ Non | [Lien à compléter](#) |
+| William | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Lohan | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Mohamed-Zineddine | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Esteban | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Moise | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Hermell | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
 | Amjad | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/amjad/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
-| Jess-Bruno | ☐ Oui / ☐ Non | [Lien à compléter](#) |
-| Mehdi | ☐ Oui / ☐ Non | [Lien à compléter](#) |
-| Bogdan-Ioan | ☐ Oui / ☐ Non | [Lien à compléter](#) |
+| Jess-Bruno | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Mehdi | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Bogdan-Ioan | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
