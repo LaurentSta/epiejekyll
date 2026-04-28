@@ -42,8 +42,8 @@ Le CSS devait contenir les propriétés de base : couleurs, police, taille du te
 | Rayan | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/rayan/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | William | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
 | Lohan | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/lohan/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
-| Mohamed-Zineddine | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Esteban | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Mohamed-Zineddine | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/mohamed-zineddine/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Esteban | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/esteban/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Moise | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/moise/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Hermell | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
 | Amjad | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/amjad/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |

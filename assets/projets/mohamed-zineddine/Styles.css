@@ -1,0 +1,136 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #6a11cb);
+    color: #ffffff;
+    text-align: center;
+}
+
+/* ===== CONTENEUR ===== */
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 15px;
+    margin: 25px 0;
+    padding: 25px;
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    /* ✔ FIX ALIGNEMENT PROPRE */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Hover sections */
+.section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== TITRES ===== */
+h1, h2 {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.6);
+
+    /* ✔ FIX ALIGNEMENT TITRES */
+    width: 100%;
+    text-align: center;
+}
+
+/* TITRE PRINCIPAL */
+h1 {
+    font-size: 42px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/* SOUS-TITRES */
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 12px;
+
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* ===== TEXTE ===== */
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 800px;
+}
+
+/* ===== LISTES ===== */
+ul, ol {
+    text-align: left;
+    display: block;
+    margin: 10px auto;
+    max-width: 600px;
+}
+
+/* ===== LIENS (BOUTONS) ===== */
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+
+    background: white;
+    color: #6a11cb;
+    text-decoration: none;
+    font-weight: bold;
+
+    transition: all 0.3s;
+}
+
+a:hover {
+    background: #ffd700;
+    color: black;
+}
+
+/* ===== IMAGES ===== */
+img {
+    margin-top: 15px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+/* ===== GALERIE ===== */
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.images img {
+    border-radius: 15px;
+    border: 2px solid white;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+    transition: transform 0.3s;
+}
+
+.images img:hover {
+    transform: scale(1.05);
+}
