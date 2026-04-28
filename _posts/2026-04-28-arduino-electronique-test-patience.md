@@ -4,7 +4,7 @@ date: 2026-04-28 09:30:00 +0200
 categories: formation
 groupe: gidef
 author: Laurent Staelens
-image: /assets/images/vignette-psin-astrolabe.png
+image: /assets/images/gidef/ArduinoVignette.png
 description: "Retour humoristique du groupe Gidef sur les premiers montages Arduino, les LED, les résistances, le feu tricolore et le bouton poussoir."
 ---
 
@@ -13,6 +13,8 @@ Arduino est une plateforme open-source née en 2005 en Italie. Elle a été con�
 En résumé : tu codes, tu branches, et tu espères que rien ne fume.
 
 Une carte Arduino, comme l'Arduino Uno, permet de contrôler des LED, des capteurs, des moteurs et tout ce qui accepte de coopérer avec du courant et un peu de foi.
+
+![Banderole Arduino du groupe Gidef]({{ '/assets/images/gidef/ArduinoBanderol.png' | relative_url }})
 
 ## Première rencontre avec la LED : elle m'a ignoré
 
@@ -64,3 +66,5 @@ Arduino nous a appris :
 - et surtout que l'électronique gagne toujours.
 
 C'est un professeur silencieux, mais très efficace : il ne parle pas. Il te laisse juste comprendre pourquoi ça ne marche pas.
+
+![Illustration de fin Arduino du groupe Gidef]({{ '/assets/images/gidef/ArduinoFooter.png' | relative_url }})
