@@ -4,13 +4,15 @@ date: 2026-04-28 09:00:00 +0200
 categories: formation
 groupe: gidef
 author: Laurent Staelens
-image: /assets/images/vignette-psin-astrolabe.png
+image: /assets/images/gidef/HistoireVignette.png
 description: "Consigne du projet HTML interactif pour le groupe Gidef et tableau de suivi des réalisations."
 ---
 
 Le groupe Gidef travaille sur une histoire interactive en HTML : un récit dans lequel le lecteur avance en cliquant sur des liens et choisit son propre chemin.
 
 L'objectif est de réutiliser les bases HTML vues en séance pour créer une expérience simple, lisible et fonctionnelle.
+
+![Banderole du projet histoire interactive]({{ '/assets/images/gidef/HistoireBanderole.png' | relative_url }})
 
 ## Consigne courte
 
@@ -64,3 +66,5 @@ Les stagiaires peuvent utiliser les balises vues en séance :
 | Ryan | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/ryan/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Louis | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/louis/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Mohammad | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/mohammad/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+
+![Illustration de fin du projet histoire interactive]({{ '/assets/images/gidef/HistoireFooter.png' | relative_url }})
