@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Le message interdit</title>
+
+  <style>
+    body {
+      background: linear-gradient(to bottom, #1a1a1a, #000);
+      color: #ccc;
+      font-family: "Courier New", monospace;
+      text-align: center;
+      padding: 60px 20px;
+      transition: background 1s;
+    }
+
+    h1 {
+      color: #d0d0d0;
+      font-size: 36px;
+      margin-bottom: 40px;
+      text-shadow: 0 0 8px rgba(255,255,255,0.15);
+    }
+
+    p {
+      font-size: 18px;
+      margin: 10px 0;
+      color: #bbb;
+    }
+
+    /* Passage inquiétant */
+    .weird {
+      color: #9ecbff;
+      text-shadow: 0 0 6px rgba(158,203,255,0.5);
+    }
+
+    .danger {
+      color: #ff6b6b;
+      text-shadow: 0 0 8px rgba(255, 0, 0, 0.4);
+      font-weight: bold;
+    }
+
+    a {
+      display: inline-block;
+      margin: 20px 10px;
+      padding: 10px 15px;
+      color: #9ecbff;
+      border: 1px solid #9ecbff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      background-color: #9ecbff;
+      color: black;
+      box-shadow: 0 0 10px #9ecbff;
+    }
+
+    .danger-btn {
+      border-color: #ff6b6b;
+      color: #ff6b6b;
+    }
+
+    .danger-btn:hover {
+      background-color: #ff6b6b;
+      color: black;
+      box-shadow: 0 0 10px #ff6b6b;
+    }
+
+    .page-number {
+      position: fixed;
+      bottom: 15px;
+      right: 15px;
+      font-size: 14px;
+      color: #eee;
+      background: rgba(80, 100, 130, 0.5);
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    /* Petit effet écran étrange */
+    .glitch {
+      animation: flicker 2s infinite;
+    }
+
+    @keyframes flicker {
+      0% { opacity: 1; }
+      50% { opacity: 0.6; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>Un matin étrange</h1>
+
+<p>Comme chaque matin, Lucas se réveille dans sa chambre, encore plongée dans une lumière douce.</p>
+<p>Il s’étire, attrape son téléphone, puis regarde son ordinateur posé sur son bureau.</p>
+<p>Aujourd’hui, il doit travailler sur un projet important pour ses études.</p>
+<p>Sans réfléchir, il s’installe sur sa chaise et appuie sur le bouton pour allumer son PC.</p>
+
+<p class="weird glitch">L’écran s’allume lentement… mais quelque chose semble étrange.</p>
+
+<p class="danger">Au lieu de son bureau habituel, un écran noir apparaît avec un message inquiétant.</p>
+
+<p>Lucas fronce les sourcils. Ce n’est pas normal.</p>
+
+<a href="page2.html">Lire le message</a>
+<a href="page3.html" class="danger-btn">Une Decision rapide</a>
+
+<div class="page-number">Page 1</div>
+
+</body>
+</html>
+  <style>
+    .page-number {
+      position: fixed;
+      bottom: 15px;
+      right: 15px;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.986);
+      background: rgba(97, 127, 145, 0.733);
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  </style>
+
+</body>
+</html>

@@ -41,40 +41,26 @@ Les stagiaires peuvent utiliser les balises vues en séance :
 - `<ul>`, `<ol>`, `<li>`
 - `<a href="page1.html">Page 1</a>`
 
-## Évaluation
-
-| Critère | Points |
-| --- | --- |
-| 20 pages HTML présentes | 4 |
-| `index.html` comme page de départ | 2 |
-| Liens fonctionnels entre les pages | 4 |
-| Plusieurs choix et plusieurs fins | 4 |
-| Code HTML propre et organisé | 2 |
-| Cohérence et originalité de l'histoire | 3 |
-| Médias ou enrichissements simples | 1 |
-
-L'usage de l'IA est autorisé. En revanche, deux travaux identiques ou presque identiques entraînent une pénalité de 10 points.
-
 ## Suivi des projets
 
 | Prénom | Validé | Voir projet |
 | --- | --- | --- |
-| Abdoulaye | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Anas | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Bilel 1 | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Bilel 2 | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Abdoulaye | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/abdoulaye/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Anas | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/anas/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Bilel 1 | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/bilel-1/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Bilel 2 | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/bilel-2/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Hamza | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Zakaria | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Cherif | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Zakaria | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/zakaria/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Cherif | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/cherif/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Ritedj | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
 | Philippa | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Safa | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Safa | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/safa/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Réuel | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Triens | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Ilyes | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Roman | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Lamda | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Ismael | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Ryan | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Louis | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Mohammad | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Triens | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/triens/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Ilyes | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/ilyes/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Roman | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/roman/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Lamda | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/lamda/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Ismael | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/ismael/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Ryan | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/ryan/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Louis | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/louis/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Mohammad | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/mohammad/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |

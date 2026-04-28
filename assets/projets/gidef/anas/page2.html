@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Le message</title>
+
+  <style>
+    body {
+      background: radial-gradient(circle at center, #120000 0%, #000 100%);
+      color: #ddd;
+      font-family: "Courier New", monospace;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      color: #ff4d4d;
+      font-size: 38px;
+      text-shadow: 0 0 10px rgba(255,0,0,0.6);
+      margin-bottom: 40px;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 10px 0;
+      color: #ccc;
+    }
+
+    .warning {
+      color: #ff4d4d;
+      font-weight: bold;
+      text-shadow: 0 0 8px rgba(255,0,0,0.5);
+      animation: flicker 1.5s infinite;
+    }
+
+    @keyframes flicker {
+      0% { opacity: 1; }
+      50% { opacity: 0.4; }
+      100% { opacity: 1; }
+    }
+
+    .terminal {
+      color: #9ecbff;
+      text-shadow: 0 0 6px rgba(158,203,255,0.4);
+    }
+
+    a {
+      display: inline-block;
+      margin: 20px 10px;
+      padding: 12px 16px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    .btn-danger {
+      color: #ff4d4d;
+      border: 1px solid #ff4d4d;
+    }
+
+    .btn-danger:hover {
+      background: #ff4d4d;
+      color: black;
+      box-shadow: 0 0 12px red;
+    }
+
+    .btn-info {
+      color: #9ecbff;
+      border: 1px solid #9ecbff;
+    }
+
+    .btn-info:hover {
+      background: #9ecbff;
+      color: black;
+      box-shadow: 0 0 12px #9ecbff;
+    }
+
+    .timer {
+      margin-top: 30px;
+      font-size: 22px;
+      color: #ff4d4d;
+      font-weight: bold;
+      text-shadow: 0 0 10px red;
+      animation: flicker 1s infinite;
+    }
+
+    .page-number {
+      position: fixed;
+      bottom: 15px;
+      right: 15px;
+      font-size: 14px;
+      color: #eee;
+      background: rgba(100, 0, 0, 0.6);
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>Un message inquiétant</h1>
+
+<p>Lucas se penche vers l’écran, intrigué mais inquiet.</p>
+
+<p class="warning">"Votre ordinateur a été piraté."</p>
+
+<p>Son cœur commence à battre plus vite. Est-ce une blague ou un vrai hack ?</p>
+
+<p class="terminal">"Nous avons accès à tous vos fichiers."</p>
+
+<p>Lucas hésite, ses mains deviennent moites.</p>
+
+<p>Un compte à rebours démarre en bas de l’écran.</p>
+
+<p>Il comprend qu’il doit agir rapidement.</p>
+
+<div class="timer">⏳ COMPTE À REBOURS ACTIF...</div>
+
+<a href="page4.html" class="btn-danger">Essayer de fermer le message</a>
+<a href="page5.html" class="btn-info">Lire les instructions du hacker</a>
+
+<div class="page-number">Page 2</div>
+
+</body>
+</html>
+  <style>
+    .page-number {
+      position: fixed;
+      bottom: 15px;
+      right: 15px;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.986);
+      background: rgb(97, 127, 145);
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  </style>
+
+</body>
+</html>
