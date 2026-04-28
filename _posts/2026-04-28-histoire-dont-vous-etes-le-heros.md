@@ -57,24 +57,24 @@ L'usage de l'IA est autorisé. En revanche, deux travaux identiques ou presque i
 
 ## Suivi des projets
 
-| Prénom | Note /20 | Validé | Voir projet |
-| --- | --- | --- | --- |
-| Abdoulaye | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Anas | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Bilel 1 | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Bilel 2 | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Hamza | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Zakaria | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Cherif | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Ritedj | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Philippa | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Safa | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Réuel | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Triens | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Ilyes | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Roman | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Lamda | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Ismael | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Ryan | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Louis | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Mohammad | À noter | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Prénom | Validé | Voir projet |
+| --- | --- | --- |
+| Abdoulaye | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Anas | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Bilel 1 | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Bilel 2 | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Hamza | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Zakaria | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Cherif | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Ritedj | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Philippa | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Safa | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Réuel | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Triens | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Ilyes | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Roman | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Lamda | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Ismael | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Ryan | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Louis | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+| Mohammad | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
