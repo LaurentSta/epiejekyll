@@ -4,9 +4,11 @@ date: 2026-04-27 09:45:00 +0200
 categories: formation
 groupe: astrolab
 author: Laurent Staelens
-image: /assets/images/vignette-psin-astrolabe.png
+image: /assets/images/astrolabe/MonPremierFormulaireVignette.png
 description: "Consigne courte du projet formulaire HTML avec génération d'un fichier CSV."
 ---
+
+![Banderole Mon premier formulaire](/assets/images/astrolabe/MonPremierFormulaireBanderole.png)
 
 Le groupe Astrolabe travaille sur un nouveau projet : créer un formulaire HTML capable de récupérer les réponses d'un utilisateur et de générer un fichier CSV.
 
@@ -58,3 +60,5 @@ Le thème est libre : habitudes numériques, loisirs, préférences, musique, je
 | Jess-Bruno | ☐ Oui / ☐ Non | [Lien à compléter](#) |
 | Mehdi | ☐ Oui / ☐ Non | [Lien à compléter](#) |
 | Bogdan-Ioan | ☐ Oui / ☐ Non | [Lien à compléter](#) |
+
+![Pied de page Mon premier formulaire](/assets/images/astrolabe/MonPremierFormulairePiedDePage.png)

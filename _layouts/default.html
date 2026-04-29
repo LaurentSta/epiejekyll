@@ -21,6 +21,25 @@
       </nav>
     </header>
 
+    {% unless page.url == "/" %}
+      <nav class="breadcrumb" aria-label="Fil d'Ariane">
+        <a href="{{ '/' | relative_url }}">Accueil</a>
+        {% assign crumbs = page.url | split: "/" %}
+        {% assign path_so_far = "" %}
+        {% for crumb in crumbs %}
+          {% unless crumb == "" %}
+            {% assign path_so_far = path_so_far | append: "/" | append: crumb %}
+            <span class="breadcrumb-sep">/</span>
+            {% if forloop.last %}
+              <span aria-current="page">{{ page.title | default: crumb | replace: "-", " " }}</span>
+            {% else %}
+              <a href="{{ path_so_far | append: '/' | relative_url }}">{{ crumb | replace: "-", " " | capitalize }}</a>
+            {% endif %}
+          {% endunless %}
+        {% endfor %}
+      </nav>
+    {% endunless %}
+
     <main class="site-main">
       {{ content }}
     </main>

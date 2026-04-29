@@ -54,8 +54,29 @@ title: Accueil
   <h2>Derniers articles</h2>
 
   {% if site.posts.size > 0 %}
+    {% assign posts_with_views = site.posts | where_exp: "p", "p.views" %}
+    {% if posts_with_views.size > 0 %}
+      {% assign carousel_posts = posts_with_views | sort: "views" | reverse %}
+    {% else %}
+      {% assign carousel_posts = site.posts %}
+    {% endif %}
+
+    <div class="post-carousel" data-carousel aria-label="Carrousel des articles les plus lus">
+      <button class="carousel-btn carousel-btn-prev" type="button" data-carousel-prev aria-label="Article precedent">‹</button>
+      <div class="post-carousel-track" data-carousel-track>
+        {% for post in carousel_posts limit: 8 %}
+          {% assign thumb = post.image | default: "/assets/images/vignette-psin-astrolabe.png" %}
+          <a class="post-carousel-item" href="{{ post.url | relative_url }}" aria-label="Ouvrir {{ post.title | escape }}">
+            <img src="{{ thumb | relative_url }}" alt="">
+            <span>{{ post.title }}</span>
+          </a>
+        {% endfor %}
+      </div>
+      <button class="carousel-btn carousel-btn-next" type="button" data-carousel-next aria-label="Article suivant">›</button>
+    </div>
+
     <div class="post-list">
-      {% for post in site.posts %}
+      {% for post in paginator.posts %}
         <article class="post-card">
           <div class="post-card-body">
             <div class="post-card-meta">
@@ -75,8 +96,9 @@ title: Accueil
               {% endif %}
             </div>
             <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-            {% if post.excerpt %}
-              <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+            {% assign short_text = post.description | default: post.excerpt %}
+            {% if short_text %}
+              <p>{{ short_text | strip_html | truncate: 180 }}</p>
             {% endif %}
           </div>
           {% assign thumbnail = post.image | default: "/assets/images/vignette-psin-astrolabe.png" %}
@@ -86,7 +108,58 @@ title: Accueil
         </article>
       {% endfor %}
     </div>
+
+    {% if paginator.total_pages > 1 %}
+      <nav class="pagination" aria-label="Pagination des articles">
+        {% for page_num in (1..paginator.total_pages) %}
+          {% if page_num == paginator.page %}
+            <span class="pagination-item is-active">{{ page_num }}</span>
+          {% elsif page_num == 1 %}
+            <a class="pagination-item" href="{{ '/' | relative_url }}">{{ page_num }}</a>
+          {% else %}
+            <a class="pagination-item" href="{{ '/page' | append: page_num | append: '/' | relative_url }}">{{ page_num }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
+    {% endif %}
   {% else %}
     <p>Aucun article pour le moment.</p>
   {% endif %}
 </section>
+
+<script>
+  (function () {
+    const root = document.querySelector("[data-carousel]");
+    if (!root) return;
+    const track = root.querySelector("[data-carousel-track]");
+    const prev = root.querySelector("[data-carousel-prev]");
+    const next = root.querySelector("[data-carousel-next]");
+    const firstItem = track.querySelector(".post-carousel-item");
+    if (!track || !firstItem) return;
+
+    const getStep = () => firstItem.getBoundingClientRect().width + 12;
+    const move = (dir) => track.scrollBy({ left: dir * getStep(), behavior: "smooth" });
+    const loop = () => {
+      const endReached = track.scrollLeft + track.clientWidth >= track.scrollWidth - 4;
+      if (endReached) {
+        track.scrollTo({ left: 0, behavior: "smooth" });
+      } else {
+        move(1);
+      }
+    };
+
+    let timer = setInterval(loop, 2800);
+    const pause = () => clearInterval(timer);
+    const resume = () => {
+      pause();
+      timer = setInterval(loop, 2800);
+    };
+
+    prev.addEventListener("click", function () { move(-1); resume(); });
+    next.addEventListener("click", function () { move(1); resume(); });
+    root.addEventListener("mouseenter", pause);
+    root.addEventListener("mouseleave", resume);
+    root.addEventListener("focusin", pause);
+    root.addEventListener("focusout", resume);
+  })();
+</script>

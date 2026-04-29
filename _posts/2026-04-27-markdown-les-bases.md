@@ -4,8 +4,11 @@ date: 2026-04-27 09:00:00 +0200
 categories: formation
 groupe: astrolab
 author: Bogdan Tiganescu
+image: /assets/images/astrolabe/MarkdownLesBasesVignette.png
 description: "Introduction aux bases de Markdown pour mettre en forme du texte."
 ---
+
+![Banderole Markdown les bases](/assets/images/astrolabe/MarkdownLesBaseBanderole.png)
 
 Markdown est un langage simple qui permet de mettre en forme du texte facilement : titres, listes, liens, images, code, tableaux, etc.
 
@@ -110,3 +113,5 @@ Markdown accepte parfois du HTML :
 - Le symbole `\` permet d'échapper un caractère.
 
 Exemple : `\*` permet d'afficher une étoile sans italique.
+
+![Pied de page Markdown les bases](/assets/images/astrolabe/MarkdownLesBasesFooter.png)

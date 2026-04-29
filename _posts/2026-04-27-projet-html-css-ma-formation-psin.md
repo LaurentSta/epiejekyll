@@ -4,9 +4,11 @@ date: 2026-04-27 09:30:00 +0200
 categories: formation
 groupe: astrolab
 author: Laurent Staelens
-image: /assets/images/vignette-psin-astrolabe.png
+image: /assets/images/astrolabe/ProjetCSSVignette.jpeg
 description: "Consigne courte du projet CSS et suivi des réalisations du groupe Astrolabe."
 ---
+
+![Banderole Projet CSS](/assets/images/astrolabe/ProjetCSSBanderole.png)
 
 Le groupe Astrolabe a travaillé sur un projet complet en HTML et CSS : créer une page web intitulée **Mon parcours de formation PSIN**.
 
@@ -50,3 +52,5 @@ Le CSS devait contenir les propriétés de base : couleurs, police, taille du te
 | Jess-Bruno | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
 | Mehdi | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/mehdi/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Bogdan-Ioan | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
+
+![Pied de page Projet CSS](/assets/images/astrolabe/ProjetCssFooter.jpeg)
