@@ -1,6 +1,6 @@
 ---
 title: "Histoire dont vous êtes le héros"
-date: 2026-04-28 09:00:00 +0200
+date: 2026-04-23 09:00:00 +0200
 categories: formation
 groupe: gidef
 author: Laurent Staelens
