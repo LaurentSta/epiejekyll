@@ -12,13 +12,19 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <nav aria-label="Navigation principale">
-        <a href="{{ '/' | relative_url }}">Accueil</a>
-        <a href="{{ '/astrolabe/' | relative_url }}">Astrolabe</a>
-        <a href="{{ '/gidef/' | relative_url }}">Gidef</a>
-        <a href="{{ '/a-propos/' | relative_url }}">A propos</a>
-      </nav>
+      <div class="site-header-inner">
+        <a class="site-title" href="{{ '/' | relative_url }}" aria-label="Retour a l'accueil">
+          {% if site.logo %}
+            <img class="site-logo" src="{{ site.logo | relative_url }}" alt="Logo PSIN">
+          {% endif %}
+        </a>
+        <nav aria-label="Navigation principale">
+          <a href="{{ '/' | relative_url }}">Accueil</a>
+          <a href="{{ '/astrolabe/' | relative_url }}">Astrolabe</a>
+          <a href="{{ '/gidef/' | relative_url }}">Gidef</a>
+          <a href="{{ '/a-propos/' | relative_url }}">A propos</a>
+        </nav>
+      </div>
     </header>
 
     {% unless page.url == "/" %}
@@ -52,10 +58,10 @@
             <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
             <path d="M2 12h20"></path>
           </svg>
-          <span>Cahier de liaison · PSIN Astrolabe Lot 16</span>
+          <span>Le lab des projets PSIN - Parcours Sécurisé Informatique et Numérique</span>
         </div>
         <div class="footer-item">
-          <span>EPIE Formation — Saint-Denis</span>
+          <span>Astrolabe et Gidef</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M15 3h6v6"></path>
             <path d="M10 14 21 3"></path>

@@ -3,7 +3,7 @@ title: "Arduino : quand l'électronique devient un test de patience"
 date: 2026-04-28 09:30:00 +0200
 categories: formation
 groupe: gidef
-author: Laurent Staelens
+author: Safa
 image: /assets/images/gidef/ArduinoVignette.png
 description: "Retour humoristique du groupe Gidef sur les premiers montages Arduino, les LED, les résistances, le feu tricolore et le bouton poussoir."
 ---
@@ -34,19 +34,25 @@ Bonus : la broche 13 avec sa LED intégrée, parfaite pour faire croire que tout
 
 ## Interview d'une personne anonyme de la classe
 
-**Comment avez-vous découvert Arduino ?**
+<div class="interview-spotlight" aria-label="Interview mise en avant">
+  <p class="interview-kicker">Interview — voix du groupe</p>
 
-Grâce à notre formateur, Laurent.
+  <div class="interview-item">
+    <p class="interview-question">Comment avez-vous découvert Arduino ?</p>
+    <p class="interview-answer">Grâce à notre formateur, Laurent.</p>
+  </div>
 
-**Quel a été votre plus grand chef-d'oeuvre électronique, ou votre plus gros accident ?**
+  <div class="interview-item">
+    <p class="interview-question">Quel a été votre plus grand chef-d'oeuvre électronique, ou votre plus gros accident ?</p>
+    <p class="interview-answer">J'ai réussi à créer un court-circuit. Résultat : le câble USB a commencé à chauffer assez vite pour me faire comprendre que j'avais probablement fait une erreur dans ma vie.</p>
+    <p class="interview-answer">Rien n'a explosé, mais disons que le câble a clairement eu une montée en température et moi une montée de stress. Depuis, je vérifie deux fois mes branchements. Minimum.</p>
+  </div>
 
-J'ai réussi à créer un court-circuit. Résultat : le câble USB a commencé à chauffer assez vite pour me faire comprendre que j'avais probablement fait une erreur dans ma vie.
-
-Rien n'a explosé, mais disons que le câble a clairement eu une montée en température et moi une montée de stress. Depuis, je vérifie deux fois mes branchements. Minimum.
-
-**Quel conseil donneriez-vous à quelqu'un qui débute sans tout casser ?**
-
-Écouter monsieur Laurent attentivement.
+  <div class="interview-item">
+    <p class="interview-question">Quel conseil donneriez-vous à quelqu'un qui débute sans tout casser ?</p>
+    <p class="interview-answer">Écouter monsieur Laurent attentivement.</p>
+  </div>
+</div>
 
 ## Le bouton poussoir : l'interactivité arrive
 

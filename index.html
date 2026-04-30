@@ -3,14 +3,29 @@ layout: default
 title: Accueil
 ---
 
+{% assign astrolab_posts = site.posts | where: "groupe", "astrolab" %}
+{% assign astrolabe_posts = site.posts | where: "groupe", "astrolabe" %}
+{% assign astrolab_all_posts = astrolab_posts | concat: astrolabe_posts %}
+{% assign gidef_posts = site.posts | where: "groupe", "gidef" %}
+{% assign latest_post = site.posts.first %}
+{% assign calendar_posts = site.posts | sort: "date" | reverse %}
+
 <section class="hero">
   <div class="hero-copy">
     <p class="eyebrow">PSIN // informatique & numerique</p>
     <h1>Le lab des projets PSIN</h1>
-    <p>Un carnet de bord pour suivre les realisations des groupes Astrolabe et Gidef, valoriser les competences techniques et montrer aux financeurs ce qui se construit semaine apres semaine.</p>
-    <div class="hero-actions" aria-label="Acces rapides">
-      <a href="{{ '/astrolabe/' | relative_url }}">Explorer Astrolabe</a>
-      <a href="{{ '/gidef/' | relative_url }}">Explorer Gidef</a>
+    <p>Un espace clair pour suivre les realisations des groupes Astrolabe et Gidef, valoriser les competences acquises et garder une trace concrete des progres de la formation.</p>
+    <div class="group-strip group-strip-inline" aria-label="Groupes PSIN">
+      <a class="group-link" href="{{ '/astrolabe/' | relative_url }}">
+        <span>Astrolabe</span>
+        <strong>Parcours, articles et projets du groupe.</strong>
+        <small>{{ astrolab_all_posts.size }} article{% if astrolab_all_posts.size > 1 %}s{% endif %} publie{% if astrolab_all_posts.size > 1 %}s{% endif %}</small>
+      </a>
+      <a class="group-link" href="{{ '/gidef/' | relative_url }}">
+        <span>Gidef</span>
+        <strong>Suivi des ateliers, retours et productions du groupe.</strong>
+        <small>{{ gidef_posts.size }} article{% if gidef_posts.size > 1 %}s{% endif %} publie{% if gidef_posts.size > 1 %}s{% endif %}</small>
+      </a>
     </div>
   </div>
 
@@ -20,38 +35,60 @@ title: Accueil
       <span></span>
       <span></span>
     </div>
-    <p class="terminal-line"><span>$</span> psin status --projects</p>
+    <div class="mini-calendar" aria-label="Calendrier des sujets PSIN">
+      <p class="mini-calendar-title">Calendrier PSIN</p>
+      {% if calendar_posts.size > 0 %}
+        <ul class="mini-calendar-list">
+          {% for post in calendar_posts limit: 6 %}
+            <li>
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m" }}</time>
+              <a href="{{ post.url | relative_url }}">
+                {{ post.title | strip_html | truncate: 54 }}
+                <span class="mini-calendar-meta">
+                  {{ post.author | default: "Auteur non renseigne" }} ·
+                  {% if post.groupe == "astrolab" or post.groupe == "astrolabe" %}
+                    Astrolabe
+                  {% elsif post.groupe == "gidef" %}
+                    Gidef
+                  {% elsif post.groupe %}
+                    {{ post.groupe }}
+                  {% else %}
+                    Groupe non renseigne
+                  {% endif %}
+                </span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="mini-calendar-empty">Aucun sujet publie pour le moment.</p>
+      {% endif %}
+    </div>
     <div class="metric-grid">
       <div>
         <strong>{{ site.posts.size }}</strong>
         <span>articles</span>
       </div>
       <div>
-        <strong>2</strong>
-        <span>groupes</span>
+        <strong>{{ astrolab_all_posts.size }}</strong>
+        <span>Astrolabe</span>
       </div>
       <div>
-        <strong>GitHub</strong>
-        <span>publication</span>
+        <strong>{{ gidef_posts.size }}</strong>
+        <span>Gidef</span>
       </div>
     </div>
-    <p class="terminal-output">journalisation active : ateliers, projets, veille, programmation, bureautique et retours d'experience.</p>
+    <p class="terminal-output">
+      journalisation active : ateliers, projets, veille, programmation, bureautique et retours d'experience.
+      {% if latest_post %}
+        Derniere publication : {{ latest_post.date | date: "%d/%m/%Y" }}.
+      {% endif %}
+    </p>
   </div>
 </section>
 
-<section class="group-strip" aria-label="Groupes PSIN">
-  <a class="group-link" href="{{ '/astrolabe/' | relative_url }}">
-    <span>Astrolabe</span>
-    <strong>Parcours, articles et projets du groupe.</strong>
-  </a>
-  <a class="group-link" href="{{ '/gidef/' | relative_url }}">
-    <span>Gidef</span>
-    <strong>Espace pret pour les prochaines publications.</strong>
-  </a>
-</section>
-
 <section class="posts">
-  <h2>Derniers articles</h2>
+  <h2>Derniers articles publies</h2>
 
   {% if site.posts.size > 0 %}
     {% assign posts_with_views = site.posts | where_exp: "p", "p.views" %}
