@@ -9,7 +9,6 @@ description: "Retour humoristique du groupe Gidef sur leur entrée en formation 
 ---
 
 ## Le Point de Départ
-<h1 style="color:#00FF00;">GIDEF</h1>
 Le **30 mars**,  
 
 Notre groupe de 19 apprenants a officiellement posé ses valises dans la formation **PSIN**, 
