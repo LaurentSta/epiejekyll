@@ -4,7 +4,7 @@ date: 2026-04-28 09:30:00 +0200
 categories: formation
 groupe: gidef
 author: Lamda
-image: /assets/images/gidef/ArduinoVignette.png
+image: /assets/images/gidef/Image_Blog_PSIN/PSIN_Belle_Aventure_Image_carré.png
 description: "Retour humoristique du groupe Gidef sur leur entrée en formation PSIN et son déroulement"
 ---
 
@@ -20,7 +20,7 @@ Notre groupe de 19 apprenants a officiellement posé ses valises dans la formati
 
 C'est comme une sorte de rentrée scolaire, en somme, mais sans les fournitures à acheter en urgence la veille.
 
-![Banderole PSIN Belle Aventure du groupe Gidef](Image_Blog_PSIN\PSIN_Belle_Aventure_Image_haut.png)  
+![Banderole PSIN Belle Aventure du groupe Gidef](/assets/images/gidef/Image_Blog_PSIN/PSIN_Belle_Aventure_Image_haut.png)  
 
 Encadrés par 3 formateurs, nous voilà embarqués dans cette formation, chacun avec ses ambitions, son niveau de départ… et parfois un rapport à l'informatique qui se résume à *« ça marche, tant mieux, ça ne marche pas, bonne chance »*.
 
@@ -56,4 +56,4 @@ D'ici là, chacun avance à son rythme, accumule **ses expériences**, et se rap
 
 La formation **PSIN**, en tout cas, ne laisse personne indifférent, et c'est bien là l'**Essentiel**.  
 
-![[Illustration de fin PSIN Belle Aventure](Image_Blog_PSIN\PSIN_Belle_Aventure_Image_bas.png) 
+![Illustration de fin PSIN Belle Aventure](/assets/images/gidef/Image_Blog_PSIN/PSIN_Belle_Aventure_Image_bas.png)
