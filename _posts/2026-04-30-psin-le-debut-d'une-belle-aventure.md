@@ -8,10 +8,8 @@ image: /assets/images/gidef/Image_Blog_PSIN/PSIN_Belle_Aventure_Image_carré.png
 description: "Retour humoristique du groupe Gidef sur leur entrée en formation PSIN et son déroulement"
 ---
 
-# PSIN - Le Début d'une Belle Aventure *(si tout se passe bien !)*
-
 ## Le Point de Départ
-
+<h1 style="color:#00FF00;">GIDEF</h1>
 Le **30 mars**,  
 
 Notre groupe de 19 apprenants a officiellement posé ses valises dans la formation **PSIN**, 
