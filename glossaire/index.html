@@ -1,0 +1,92 @@
+---
+layout: default
+title: Glossaire
+permalink: /glossaire/
+---
+
+{% assign glossary_terms = site.glossaire | sort: "title" %}
+
+<section class="page-hero compact-hero">
+  <p class="eyebrow">Glossaire PSIN</p>
+  <h1>Glossaire des termes numeriques</h1>
+  <p>Retrouve les definitions, les synonymes utiles, et les liens entre notions pour mieux comprendre les articles du blog.</p>
+</section>
+
+<section class="glossary-controls" aria-label="Filtres du glossaire">
+  <div class="glossary-search-wrap">
+    <label for="glossary-search" class="glossary-label">Rechercher un terme</label>
+    <input id="glossary-search" class="glossary-search" type="search" placeholder="Ex: HTML, mot de passe, phishing..." autocomplete="off">
+  </div>
+
+  <div class="glossary-filter-wrap">
+    <label for="glossary-category" class="glossary-label">Categorie</label>
+    <select id="glossary-category" class="glossary-select">
+      <option value="all">Toutes les categories</option>
+      <option value="arduino">arduino</option>
+      <option value="excel">excel</option>
+      <option value="scratch">scratch</option>
+      <option value="html">html</option>
+      <option value="css">css</option>
+      <option value="web (navigateur)">web (navigateur)</option>
+      <option value="markdown">markdown</option>
+    </select>
+  </div>
+</section>
+
+<section class="glossary-alpha" aria-label="Filtre alphabetique">
+  <button type="button" class="glossary-alpha-btn is-active" data-letter="all">Tous</button>
+  {% assign letters = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" | split: "," %}
+  {% for letter in letters %}
+    <button type="button" class="glossary-alpha-btn" data-letter="{{ letter }}">{{ letter }}</button>
+  {% endfor %}
+</section>
+
+<section>
+  <p class="glossary-results-count" id="glossary-results-count">{{ glossary_terms.size }} terme{% if glossary_terms.size > 1 %}s{% endif %}</p>
+  <div class="glossary-grid" id="glossary-grid">
+    {% for term in glossary_terms %}
+      {% assign first_char = term.title | slice: 0, 1 | upcase %}
+      <article class="glossary-card" data-term-card data-letter="{{ first_char }}" data-category="{{ term.category | downcase }}">
+        <p class="glossary-card-head">
+          {% if term.category %}
+            <span class="glossary-badge">{{ term.category }}</span>
+          {% endif %}
+        </p>
+        <h2><a href="{{ term.url | relative_url }}">{{ term.title }}</a></h2>
+        {% if term.definition %}
+          <p>{{ term.definition }}</p>
+        {% endif %}
+        {% if term.related_terms and term.related_terms.size > 0 %}
+          <p class="glossary-related-inline">
+            Lie a :
+            {% for related_slug in term.related_terms limit: 3 %}
+              {% assign related_term = site.glossaire | where: "slug", related_slug | first %}
+              {% if related_term %}
+                <a href="{{ related_term.url | relative_url }}">{{ related_term.title }}</a>{% unless forloop.last %}, {% endunless %}
+              {% endif %}
+            {% endfor %}
+          </p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+
+  <p class="empty-state glossary-empty" id="glossary-empty" hidden>Aucun terme ne correspond a ta recherche.</p>
+</section>
+
+<script id="glossary-index-data" type="application/json">
+[
+{% for term in glossary_terms %}
+  {
+    "title": {{ term.title | jsonify }},
+    "definition": {{ term.definition | default: "" | jsonify }},
+    "url": {{ term.url | relative_url | jsonify }},
+    "category": {{ term.category | default: "" | downcase | jsonify }},
+    "aliases": {{ term.aliases | default: empty | jsonify }},
+    "letter": {{ term.title | slice: 0, 1 | upcase | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
+</script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="{{ '/assets/js/glossary-index.js' | relative_url }}"></script>

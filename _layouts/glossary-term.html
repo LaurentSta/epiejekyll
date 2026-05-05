@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<article class="glossary-term-page">
+  <header class="page-hero compact-hero">
+    <p class="eyebrow">Glossaire PSIN</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.definition %}
+      <p>{{ page.definition }}</p>
+    {% endif %}
+  </header>
+
+  <section class="glossary-term-meta">
+    {% if page.category %}
+      <p><strong>Categorie :</strong> <span class="glossary-badge">{{ page.category }}</span></p>
+    {% endif %}
+
+    {% if page.aliases and page.aliases.size > 0 %}
+      <p><strong>Synonymes :</strong> {{ page.aliases | join: ", " }}</p>
+    {% endif %}
+  </section>
+
+  <section class="glossary-term-content post-content">
+    {{ content }}
+  </section>
+
+  {% if page.related_terms and page.related_terms.size > 0 %}
+    <section class="glossary-related">
+      <h2>Termes lies</h2>
+      <ul>
+        {% for related_slug in page.related_terms %}
+          {% assign related_term = site.glossaire | where: "slug", related_slug | first %}
+          {% if related_term %}
+            <li>
+              <a href="{{ related_term.url | relative_url }}">{{ related_term.title }}</a>
+              {% if related_term.definition %}
+                <span>{{ related_term.definition }}</span>
+              {% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+</article>

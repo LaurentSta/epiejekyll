@@ -17,6 +17,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
+collections:
+  glossaire:
+    output: true
+    permalink: /glossaire/:name/
+
 paginate: 5
 paginate_path: "/page:num/"
 
@@ -26,6 +31,11 @@ defaults:
       type: posts
     values:
       layout: post
+  - scope:
+      path: ""
+      type: glossaire
+    values:
+      layout: glossary-term
 
 exclude:
   - Gemfile
