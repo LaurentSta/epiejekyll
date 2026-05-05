@@ -7,7 +7,7 @@ author: Bogdan Tiganescu
 ---
 
 
-
+![Illustration rangement code](https://wallpaperaccess.com/full/8174684.jpg)
 Salut les codeurs du dimanche *(et les pros aussi, on ne juge pas)* !  
   
 Aujourd'hui, on parle **rangement**. Oui, oui, comme dans votre chambre — mais version **code**. On va dompter le chaos des fichiers HTML, CSS et images pour un site web qui respire la *zen attitude*.  
