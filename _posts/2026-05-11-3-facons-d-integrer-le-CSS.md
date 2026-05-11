@@ -7,7 +7,7 @@ author: Ouzefa
 description: "Les 3 méthodes d'integrer du style "
 ---
 
-![Facons d'integrer du style](https://media.discordapp.net/attachments/1503314310481580092/1503314509253840956/CSS3_floater.png?ex=6a02e63d&is=6a0194bd&hm=a9eed7460cfe701dc55f3516bd172e9d58b0bfb830426c07c908ad8b48027377&=&format=webp&quality=lossless&width=691&height=691)
+![Facons d'integrer du style](https://media.discordapp.net/attachments/1503314310481580092/1503314509253840956/CSS3_floater.png?ex=6a02e63d&is=6a0194bd&hm=a9eed7460cfe701dc55f3516bd172e9d58b0bfb830426c07c908ad8b48027377&=&format=webp&quality=lossless&width=691&height=291)
 
 # HTML & CSS : Les 3 façons d'intégrer le style
 
