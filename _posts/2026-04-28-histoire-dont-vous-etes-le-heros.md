@@ -47,28 +47,28 @@ Les stagiaires peuvent utiliser les balises vues en séance :
 
 | Prénom | Validé | Voir projet |
 | --- | --- | --- |
-| Abdoulaye | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/abdoulaye/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Abdoulaye | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://abdoubathily32-lab.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Anas | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://jokairr78.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Bilel 1 | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://billel-code.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Bilel 2 | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://unknown-8-glitch.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Abdoulaye | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://abdoubathily32-lab.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
-| Anas | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/anas/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
-| Bilel 1 | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/bilel-1/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
-| Bilel 2 | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/bilel-2/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Anas | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://jokairr78.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Bilel 1 | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://billel-code.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Bilel 2 | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '(https://unknown-8-glitch.github.io/ProjetPsinHistoire/)' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Hamza | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
 | Zakaria | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://zakaria-cs.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
-| Cherif | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/cherif/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
-| Ritedj | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Philippa | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
-| Safa | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/safa/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Cherif | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://jjjjikjj.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Ritedj | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://habesritedj-droid.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Philippa | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://filipa-95.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Safa | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://safa-la.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Réuel | <span class="validation validation-missing" aria-label="Non réalisé">×</span> | [Lien à compléter](#) |
 | Triens | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://triens-bit.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Ilyes | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/ilyes/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Roman | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://bqfsr.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Lamda | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://lamdanana.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
-| Ismael | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/ismael/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
-| Ryan | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/ryan/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
-| Louis | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/louis/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Ismael | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://ismaelsaidbanta16-a11y.github.io./Projetpsinhistoire/index.html' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Ryan | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://yosco-byte.github.io./ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Louis | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://doughbi.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Mohammad | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://shameerky.github.io/ProjetPsinHistoire/index.html' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 
 ![Illustration de fin du projet histoire interactive]({{ '/assets/images/gidef/HistoireFooter.png' | relative_url }})
