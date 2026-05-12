@@ -47,7 +47,7 @@ Les stagiaires peuvent utiliser les balises vues en séance :
 
 | Prénom | Validé | Voir projet |
 | --- | --- | --- |
-| Abdoulaye | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/abdoulaye/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
+| Abdoulaye | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ 'https://abdoubathily32-lab.github.io/ProjetPsinHistoire/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Anas | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/anas/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Bilel 1 | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/bilel-1/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
 | Bilel 2 | <span class="validation validation-ok" aria-label="Validé">✓</span> | <a href="{{ '/assets/projets/gidef/bilel-2/' | relative_url }}" target="_blank" rel="noopener noreferrer">Voir le projet</a> |
